@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Settings"
+            android:text="设置"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginBottom="24dp" />
@@ -23,7 +23,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Updates"
+            android:text="更新"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
@@ -32,14 +32,14 @@
             android:id="@+id/autoUpdateSwitch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Enable auto-update checks"
+            android:text="应用自动更新检查"
             android:checked="true"
             android:paddingVertical="8dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Automatically check for updates on app start"
+            android:text="应用启动时自动检查更新"
             android:textSize="12sp"
             android:textColor="?android:attr/textColorSecondary"
             android:layout_marginBottom="24dp"
@@ -56,7 +56,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Network Configuration"
+            android:text="网络配置"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
@@ -65,7 +65,7 @@
             android:id="@+id/networkStatusText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Network status: Checking..."
+            android:text="网络状态：检查中..."
             android:textSize="12sp"
             android:textColor="?android:attr/textColorSecondary"
             android:layout_marginBottom="16dp"
@@ -75,7 +75,7 @@
             android:id="@+id/useDeviceIpSwitch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Use Device Local IP"
+            android:text="使用设备本地IP"
             android:checked="true"
             android:paddingVertical="8dp" />
 
@@ -83,7 +83,7 @@
             android:id="@+id/deviceIpLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Detected IP: Loading..."
+            android:text="检测到IP：加载中..."
             android:textSize="12sp"
             android:textColor="?android:attr/textColorSecondary"
             android:layout_marginBottom="16dp"
@@ -94,7 +94,7 @@
             android:id="@+id/customIpLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Custom IP Address"
+            android:hint="自定义IP地址"
             android:enabled="false">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -110,7 +110,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Enter a custom IP address for ADB pairing (e.g., 192.168.1.100)"
+            android:text="输入用于ADB 配对的自定义IP地址（例如：192.168.1.100) "
             android:textSize="12sp"
             android:textColor="?android:attr/textColorSecondary"
             android:layout_marginBottom="16dp"
@@ -139,7 +139,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="About IP Configuration"
+            android:text="关于IP配置"
             android:textSize="14sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
@@ -147,7 +147,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• Device Local IP: Uses your phone's current WiFi IP address (recommended)\n• Custom IP: Use if your IP address changes frequently or you want to connect to a specific device"
+            android:text="•设备本地IP：使用手机当前的WiFi IP地址(推荐) In· 自定义IP：当您的IP地址频繁变化或要连接特定设备时使用 "
             android:textSize="12sp"
             android:textColor="?android:attr/textColorSecondary"
             android:lineSpacingExtra="4dp"
@@ -158,7 +158,7 @@
             android:id="@+id/checkUpdateButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Check for Updates"
+            android:text="检查更新"
             android:minHeight="48dp"
             android:layout_marginBottom="16dp" />
 
@@ -167,7 +167,7 @@
             android:id="@+id/saveButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Save Settings"
+            android:text="保存设置"
             android:minHeight="48dp" />
 
     </LinearLayout>
