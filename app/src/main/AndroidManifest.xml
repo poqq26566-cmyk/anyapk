@@ -31,7 +31,7 @@
         <activity
             android:name=".InstallActivity"
             android:exported="true"
-            android:label="Install APK">
+            android:label="安装APK">
             <intent-filter android:priority="100">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -51,7 +51,7 @@
         <activity
             android:name=".SettingsActivity"
             android:exported="false"
-            android:label="Settings"
+            android:label="设置"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
