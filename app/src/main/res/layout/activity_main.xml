@@ -46,7 +46,7 @@
             android:id="@+id/testConnectionButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Test Connection"
+            android:text="测试连接"
             android:minWidth="200dp"
             android:visibility="gone" />
 
